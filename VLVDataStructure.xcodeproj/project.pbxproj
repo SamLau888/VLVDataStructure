@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222119B4256CCC9500342505 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222119B3256CCC9500342505 /* main.swift */; };
+		222119C4256CCD3500342505 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222119C3256CCD3500342505 /* Stack.swift */; };
+		222119C8256CD04100342505 /* FoundationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222119C7256CD04100342505 /* FoundationTest.swift */; };
+		222119CC256CD05600342505 /* StackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222119CB256CD05600342505 /* StackTest.swift */; };
+		222119CF256CD3C800342505 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222119CE256CD3C800342505 /* LinkedList.swift */; };
+		222119D2256CD73D00342505 /* LinkedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222119D1256CD73D00342505 /* LinkedListTest.swift */; };
+		222119D6256CE52300342505 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222119D5256CE52300342505 /* Queue.swift */; };
+		222119D9256CE7AE00342505 /* QueueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222119D8256CE7AE00342505 /* QueueTest.swift */; };
+		22211A17256DFE3700342505 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22211A16256DFE3700342505 /* Trie.swift */; };
+		22211A1A256E04AE00342505 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22211A19256E04AE00342505 /* BinaryTree.swift */; };
+		22211A1F256E06B700342505 /* BinaryTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22211A1E256E06B700342505 /* BinaryTreeTest.swift */; };
+		22211A45256E4E9C00342505 /* TrieTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22211A44256E4E9C00342505 /* TrieTest.swift */; };
+		22211A48256E53D100342505 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22211A47256E53D100342505 /* Heap.swift */; };
+		22C452FA25708BF700B9D17B /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C452F925708BF700B9D17B /* PriorityQueue.swift */; };
+		22C452FD257090DF00B9D17B /* PriorityQueueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C452FC257090DF00B9D17B /* PriorityQueueTest.swift */; };
+		22FC5793256FEB0400A3FF46 /* HeepTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC5792256FEB0400A3FF46 /* HeepTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		222119AE256CCC9500342505 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		222119B0256CCC9500342505 /* VLVDataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VLVDataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
+		222119B3256CCC9500342505 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		222119C3256CCD3500342505 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		222119C7256CD04100342505 /* FoundationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationTest.swift; sourceTree = "<group>"; };
+		222119CB256CD05600342505 /* StackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTest.swift; sourceTree = "<group>"; };
+		222119CE256CD3C800342505 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		222119D1256CD73D00342505 /* LinkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTest.swift; sourceTree = "<group>"; };
+		222119D5256CE52300342505 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		222119D8256CE7AE00342505 /* QueueTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTest.swift; sourceTree = "<group>"; };
+		22211A16256DFE3700342505 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		22211A19256E04AE00342505 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		22211A1E256E06B700342505 /* BinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeTest.swift; sourceTree = "<group>"; };
+		22211A44256E4E9C00342505 /* TrieTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieTest.swift; sourceTree = "<group>"; };
+		22211A47256E53D100342505 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		22C452F925708BF700B9D17B /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		22C452FC257090DF00B9D17B /* PriorityQueueTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueueTest.swift; sourceTree = "<group>"; };
+		22FC5792256FEB0400A3FF46 /* HeepTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeepTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		222119AD256CCC9500342505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222119A7256CCC9500342505 = {
+			isa = PBXGroup;
+			children = (
+				222119B2256CCC9500342505 /* VLVDataStructure */,
+				222119B1256CCC9500342505 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		222119B1256CCC9500342505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				222119B0256CCC9500342505 /* VLVDataStructure */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		222119B2256CCC9500342505 /* VLVDataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				222119BB256CCCB000342505 /* LinkedList */,
+				222119BC256CCCB700342505 /* Stack */,
+				222119BD256CCCBC00342505 /* Queue */,
+				222119BE256CCCCD00342505 /* Tree */,
+				222119C6256CD01900342505 /* Test */,
+				222119B3256CCC9500342505 /* main.swift */,
+			);
+			path = VLVDataStructure;
+			sourceTree = "<group>";
+		};
+		222119BB256CCCB000342505 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				222119CE256CD3C800342505 /* LinkedList.swift */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		222119BC256CCCB700342505 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				222119C3256CCD3500342505 /* Stack.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		222119BD256CCCBC00342505 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				222119D5256CE52300342505 /* Queue.swift */,
+				22C452F925708BF700B9D17B /* PriorityQueue.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		222119BE256CCCCD00342505 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				22211A42256E0A4300342505 /* BinaryTree */,
+				222119BF256CCCD600342505 /* Trie */,
+				222119C0256CCCE000342505 /* Heap */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		222119BF256CCCD600342505 /* Trie */ = {
+			isa = PBXGroup;
+			children = (
+				22211A16256DFE3700342505 /* Trie.swift */,
+			);
+			path = Trie;
+			sourceTree = "<group>";
+		};
+		222119C0256CCCE000342505 /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				22211A47256E53D100342505 /* Heap.swift */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
+		222119C6256CD01900342505 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				222119C7256CD04100342505 /* FoundationTest.swift */,
+				222119D1256CD73D00342505 /* LinkedListTest.swift */,
+				222119CB256CD05600342505 /* StackTest.swift */,
+				222119D8256CE7AE00342505 /* QueueTest.swift */,
+				22211A1E256E06B700342505 /* BinaryTreeTest.swift */,
+				22211A44256E4E9C00342505 /* TrieTest.swift */,
+				22FC5792256FEB0400A3FF46 /* HeepTest.swift */,
+				22C452FC257090DF00B9D17B /* PriorityQueueTest.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		22211A42256E0A4300342505 /* BinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				22211A19256E04AE00342505 /* BinaryTree.swift */,
+			);
+			path = BinaryTree;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		222119AF256CCC9500342505 /* VLVDataStructure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222119B7256CCC9500342505 /* Build configuration list for PBXNativeTarget "VLVDataStructure" */;
+			buildPhases = (
+				222119AC256CCC9500342505 /* Sources */,
+				222119AD256CCC9500342505 /* Frameworks */,
+				222119AE256CCC9500342505 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VLVDataStructure;
+			productName = VLVDataStructure;
+			productReference = 222119B0256CCC9500342505 /* VLVDataStructure */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		222119A8256CCC9500342505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					222119AF256CCC9500342505 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 222119AB256CCC9500342505 /* Build configuration list for PBXProject "VLVDataStructure" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 222119A7256CCC9500342505;
+			productRefGroup = 222119B1256CCC9500342505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222119AF256CCC9500342505 /* VLVDataStructure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		222119AC256CCC9500342505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22211A1A256E04AE00342505 /* BinaryTree.swift in Sources */,
+				22FC5793256FEB0400A3FF46 /* HeepTest.swift in Sources */,
+				22C452FA25708BF700B9D17B /* PriorityQueue.swift in Sources */,
+				22211A48256E53D100342505 /* Heap.swift in Sources */,
+				22211A17256DFE3700342505 /* Trie.swift in Sources */,
+				222119CC256CD05600342505 /* StackTest.swift in Sources */,
+				222119D6256CE52300342505 /* Queue.swift in Sources */,
+				222119C4256CCD3500342505 /* Stack.swift in Sources */,
+				22211A45256E4E9C00342505 /* TrieTest.swift in Sources */,
+				22C452FD257090DF00B9D17B /* PriorityQueueTest.swift in Sources */,
+				222119D2256CD73D00342505 /* LinkedListTest.swift in Sources */,
+				222119CF256CD3C800342505 /* LinkedList.swift in Sources */,
+				22211A1F256E06B700342505 /* BinaryTreeTest.swift in Sources */,
+				222119B4256CCC9500342505 /* main.swift in Sources */,
+				222119C8256CD04100342505 /* FoundationTest.swift in Sources */,
+				222119D9256CE7AE00342505 /* QueueTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		222119B5256CCC9500342505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		222119B6256CCC9500342505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		222119B8256CCC9500342505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		222119B9256CCC9500342505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		222119AB256CCC9500342505 /* Build configuration list for PBXProject "VLVDataStructure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222119B5256CCC9500342505 /* Debug */,
+				222119B6256CCC9500342505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222119B7256CCC9500342505 /* Build configuration list for PBXNativeTarget "VLVDataStructure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222119B8256CCC9500342505 /* Debug */,
+				222119B9256CCC9500342505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 222119A8256CCC9500342505 /* Project object */;
+}
